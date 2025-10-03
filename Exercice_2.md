@@ -5,7 +5,7 @@ Cet exercice montre comment **créer des dossiers et des fichiers**, ajouter du 
 
 ## 1. Création du dossier `conteneur` et sous-dossiers
 
-**Description :**  
+** Description : **  
 On commence par créer un dossier principal `conteneur` et trois sous-dossiers pour organiser différents types d'objets.
 
 **Commandes exécutées :**
