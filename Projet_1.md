@@ -1,6 +1,4 @@
-# README
-
-## Objectifs du projet
+# Objectifs du projet
 
 Ce projet a pour but d'apprendre à utiliser le terminal (CLI – Command Line Interface).  
 À travers plusieurs exercices, nous allons :
@@ -11,9 +9,8 @@ Ce projet a pour but d'apprendre à utiliser le terminal (CLI – Command Line I
 4. Découvrir les fichiers cachés et leur importance.
 5. Développer de bonnes habitudes pour organiser son environnement numérique.
 
----
 
-## Exercice 1 : Manipulation simple de fichiers et dossiers
+# Exercice 1
 
 ### Commandes exécutées :
 
@@ -50,11 +47,9 @@ pwd
 
 Au début, la différence entre `rm` et `rm -r` n'était pas évidente. Il faut retenir que `rm` sert pour les fichiers et `rm -r` pour les dossiers.
 
----
+# Exercice 2
 
-## Exercice 2 : Créer et remplir des fichiers texte
-
-### Commandes exécutées :
+## Commandes exécutées :
 
 ```bash
 cd ~
@@ -77,7 +72,7 @@ cd ..
 ls -l
 ```
 
-### Explication :
+## Explication :
 
 - `echo "texte"` : écrire du texte dans un fichier.  
 - `>` : créer un fichier et écrire dedans.  
@@ -89,11 +84,9 @@ ls -l
 
 Il fallait faire attention à ne pas utiliser `>` à la place de `>>`, sinon on écrasait le fichier.
 
----
+# Exercice 3 : Arborescence et sous-dossiers
 
-## Exercice 3 : Arborescence et sous-dossiers
-
-### Commandes exécutées :
+## Commandes exécutées :
 
 ```bash
 mkdir -p actualites/politique
@@ -112,15 +105,13 @@ mkdir buzz
 - `mkdir -p` : permet de créer plusieurs dossiers en une seule commande.  
 - `cd ../..` : remonter de deux dossiers vers l'arrière.
 
-### Difficultés rencontrées :
+## Difficultés rencontrées :
 
 Il fallait bien comprendre comment `..` fonctionne. Chaque `..` fait remonter d'un dossier.
 
----
+# Exercice 4 : Fichiers cachés et renommage
 
-## Exercice 4 : Fichiers cachés et renommage
-
-### Commandes exécutées :
+## Commandes exécutées :
 
 ```bash
 cd ~
@@ -138,21 +129,15 @@ mv gomme.txt crayons/
 cd ~
 ```
 
-### Explication :
+## Explication :
 
 - Un fichier commençant par un point (`.`) est caché.  
 - `ls -a` : permet d'afficher les fichiers cachés.  
 - `mv` : sert à renommer ou déplacer un fichier.
 
-### Difficultés rencontrées :
+# Exercice 5
 
-Il fallait utiliser `ls -a` pour voir les fichiers cachés, sinon ils n'apparaissent pas.
-
----
-
-## Exercice 5 : Organisation d'un projet scolaire
-
-### Commandes exécutées :
+## Commandes exécutées :
 
 ```bash
 mkdir -p projet_scolaire/maths projet_scolaire/sciences
@@ -173,20 +158,19 @@ cd ..
 rmdir sciences
 ```
 
-### Explication :
+## Explication :
 
 - `rmdir` : supprime un dossier vide.  
 - On apprend ici à renommer et déplacer des fichiers entre dossiers.
 
-### Difficultés rencontrées :
+## Difficultés rencontrées :
 
 Un dossier doit être vide avant d'être supprimé avec `rmdir`.
 
----
 
-## Exercice 6 : Fichiers personnels et cachés
+# Exercice 6
 
-### Commandes exécutées :
+## Commandes exécutées :
 
 ```bash
 mkdir votrenom
@@ -203,28 +187,23 @@ mv banque.txt medical.txt documents/
 rm .mdp
 ```
 
-### Explication :
+## Explication :
 
 - `.mdp` est un fichier caché (souvent pour des informations sensibles).  
 - `rm` permet de le supprimer une fois qu'il n'est plus utile.  
 - `mv` sert à organiser les fichiers dans un dossier.
 
-### Difficultés rencontrées :
+## Difficultés rencontrées :
 
 Il ne faut pas oublier de mettre un point au début du nom pour créer un fichier caché.
 
----
 
-## Difficultés générales
+# Difficultés générales
 
 - Confusion entre `cd` (changer de dossier) et `mkdir` (créer un dossier).  
 - Mauvaise utilisation de `>` à la place de `>>`.  
 - Erreurs lors de la suppression de dossiers non vides.  
 - Oublier de revenir dans le bon dossier avant d'exécuter une commande.
-
----
-
-## Conclusion
 
 Ces exercices ont permis de mieux comprendre le fonctionnement du terminal et de la ligne de commande.  
 Ils montrent l'importance d'une bonne organisation dans un système de fichiers et d'une bonne utilisation des commandes de base.  
