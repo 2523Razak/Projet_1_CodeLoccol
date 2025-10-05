@@ -12,7 +12,7 @@ Ce projet a pour but d'apprendre à utiliser le terminal (CLI – Command Line I
 
 # Exercice 1
 
-### Commandes exécutées :
+## Commandes exécutées :
 
 ```bash
 cd ~
@@ -33,7 +33,7 @@ mv ami parent/
 pwd
 ```
 
-### Explication :
+## Explication :
 
 - `cd ~` : aller dans le dossier personnel.  
 - `mkdir` : créer un dossier.  
@@ -80,11 +80,11 @@ ls -l
 - `cat` : afficher le contenu d'un fichier.  
 - `ls -l` : lister les fichiers et dossiers avec des détails.
 
-### Difficultés rencontrées :
+## Difficultés rencontrées :
 
 Il fallait faire attention à ne pas utiliser `>` à la place de `>>`, sinon on écrasait le fichier.
 
-# Exercice 3 : Arborescence et sous-dossiers
+# Exercice 3
 
 ## Commandes exécutées :
 
@@ -100,7 +100,7 @@ cd ../..
 mkdir buzz
 ```
 
-### Explication :
+## Explication :
 
 - `mkdir -p` : permet de créer plusieurs dossiers en une seule commande.  
 - `cd ../..` : remonter de deux dossiers vers l'arrière.
@@ -109,7 +109,7 @@ mkdir buzz
 
 Il fallait bien comprendre comment `..` fonctionne. Chaque `..` fait remonter d'un dossier.
 
-# Exercice 4 : Fichiers cachés et renommage
+# Exercice 4
 
 ## Commandes exécutées :
 
